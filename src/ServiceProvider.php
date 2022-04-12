@@ -18,9 +18,13 @@ class ServiceProvider extends LaravelServiceProvider
 
     public function boot(): void
     {
-        $this->publishes([
+        /*$this->publishes([
             __DIR__ . '/../config/laravel-tiptap.php' => config_path('laravel-tiptap.php'),
-        ], 'laravel-tiptap-config');
+        ], 'laravel-tiptap-config');*/
+
+        $this->publishes([
+            __DIR__.'/../config/laravel-tiptap.php' => config_path('laravel-tiptap.php')
+        ], 'config');
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-tiptap');
 
