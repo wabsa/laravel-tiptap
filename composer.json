@@ -44,9 +44,5 @@
                 "Wabsa\\LaravelTiptap\\ServiceProvider"
             ]
         }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "prefer-stable": true
+    }
 }
