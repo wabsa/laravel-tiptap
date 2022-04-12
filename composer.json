@@ -13,7 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "George Boot"
+            "name": "wabsa"
         }
     ],
     "require": {
@@ -52,6 +52,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
