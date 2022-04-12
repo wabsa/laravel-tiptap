@@ -1,9 +1,10 @@
 # Tiptap Editor for TALL stack
+This is the repackage of georgeboot/laravel-tiptap (https://github.com/georgeboot/laravel-tiptap)
 
 <p align="center"><img src="/screenshot.png" alt="Screenshot"></p>
 
 ```
-composer require georgeboot/laravel-tiptap
+composer require wabsa/laravel-tiptap
 yarn add laravel-tiptap
 ```
 
@@ -63,7 +64,7 @@ Add purge directory to TailwindCSS config:
 module.exports = {
     purge: [
         // your existing purges
-        './vendor/georgeboot/laravel-tiptap/resources/views/**/*.blade.php',
+        './vendor/wabsa/laravel-tiptap/resources/views/**/*.blade.php',
     ],
 }
 ```
