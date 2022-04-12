@@ -1,5 +1,5 @@
 {
-    "name": "georgeboot/laravel-tiptap",
+    "name": "wabsa/laravel-tiptap",
     "description": "Opinionated integration of Tiptap editor using the TALL stack",
     "keywords": [
         "laravel",
@@ -8,7 +8,7 @@
         "livewire",
         "tall stack"
     ],
-    "homepage": "https://github.com/georgeboot/laravel-tiptap",
+    "homepage": "https://github.com/wabsa/laravel-tiptap",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -20,7 +20,7 @@
         "php": "^8.0",
         "ext-json": "*",
         "aws/aws-sdk-php": "^3.80",
-        "laravel/framework": "^6.0|^7.0|^8.0"
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Georgeboot\\LaravelTiptap\\ServiceProvider"
+                "Wabsa\\LaravelTiptap\\ServiceProvider"
             ]
         }
     },

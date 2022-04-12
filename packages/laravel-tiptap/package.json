@@ -2,7 +2,7 @@
   "name": "laravel-tiptap",
   "description": "Opinionated integration of Tiptap editor using the TALL stack",
   "version": "latest",
-  "homepage": "https://github.com/georgeboot/laravel-tiptap",
+  "homepage": "https://github.com/wabsa/laravel-tiptap",
   "keywords": [
     "laravel",
     "tiptap",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/georgeboot"
+    "url": "https://github.com/sponsors/wabsa"
   },
   "main": "dist/laravel-tiptap.cjs.js",
   "umd": "dist/laravel-tiptap.umd.js",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/georgeboot/laravel-tiptap",
+    "url": "https://github.com/wabsa/laravel-tiptap",
     "directory": "packages/laravel-tiptap"
   }
 }
