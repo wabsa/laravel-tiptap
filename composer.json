@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wabsa\\LaravelTiptap\\ServiceProvider"
+                "Wabsa\\LaravelTiptap\\LaravelTiptapServiceProvider"
             ]
         }
     },
